@@ -1,4 +1,4 @@
-module grpc_examples
+module github.com/newinternetboy/grpc_examples
 
 go 1.15
 

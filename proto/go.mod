@@ -1,4 +1,4 @@
-module grpc_examples/proto
+module github.com/newinternetboy/grpc_examples/proto
 
 go 1.15
 
