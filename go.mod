@@ -1,4 +1,4 @@
-module grpcexamples
+module grpc_examples
 
 go 1.15
 
