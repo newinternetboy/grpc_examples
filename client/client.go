@@ -22,7 +22,7 @@ func main() {
 }
 
 func Search() {
-	conn, err := grpc.Dial(":"+PORT, grpc.WithInsecure())
+	conn, err := grpc.Dial("23.105.205.133:"+PORT, grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("grpc.Dial err: %v", err)
 	}
@@ -38,7 +38,7 @@ func Search() {
 }
 
 func SearchDoctor() {
-	conn, err := grpc.Dial(":"+PORT, grpc.WithInsecure())
+	conn, err := grpc.Dial("23.105.205.133:"+PORT, grpc.WithInsecure())
 	if err != nil {
 		log.Fatalf("grpc.Dial err: %v", err)
 	}
